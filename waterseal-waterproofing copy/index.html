@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Waterseal Waterproofing Canberra · Membrane Specialists · 20+ Years</title>
+  <meta name="description" content="Waterseal Waterproofing has protected Canberra & Queanbeyan homes and businesses for over 20 years. Bathrooms, balconies, roofs & remedial leak repairs using the latest membrane technology, to Australian Standards. Free quotes — call 0418 629 185." />
+  <meta name="theme-color" content="#0a2a43" />
+
+  <!-- ===========================================================
+       WATERSEAL WATERPROOFING — pitch/demo site
+       Built by Alex Cole. See NOTES.md for the list of
+       PLACEHOLDERS to confirm/replace before go-live
+       (reviews, email, ABN/licence, exact warranty terms).
+       =========================================================== -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%92%A7%3C/text%3E%3C/svg%3E" />
+
+  <!-- Local-business structured data (good for Google). Confirm geo + email before launch. -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Plumber",
+    "name": "Waterseal Waterproofing Canberra",
+    "image": "assets/hero.jpg",
+    "description": "Waterproofing specialists serving Canberra & Queanbeyan for over 20 years — bathrooms, balconies, roofs, basements and remedial leak repairs using advanced membrane systems to Australian Standards.",
+    "telephone": "+61418629185",
+    "url": "",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "John Bull St",
+      "addressLocality": "Queanbeyan",
+      "addressRegion": "NSW",
+      "postalCode": "2620",
+      "addressCountry": "AU"
+    },
+    "areaServed": ["Canberra", "Queanbeyan", "ACT", "Surrounding districts"],
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+      "opens": "00:00",
+      "closes": "23:59"
+    },
+    "priceRange": "$$"
+  }
+  </script>
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ===== HEADER ===== -->
+  <header class="site-header" id="top" data-header>
+    <div class="container header-inner">
+      <a href="#top" class="brand" aria-label="Waterseal Waterproofing home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 48 48" width="42" height="42" fill="none">
+            <defs>
+              <linearGradient id="dropGrad" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#28d3e6"/>
+                <stop offset="1" stop-color="#0a6fb8"/>
+              </linearGradient>
+            </defs>
+            <path d="M24 3c1 0 2 .5 2.5 1.4 2.7 4.6 13.5 17 13.5 26.3C40 39.6 32.8 46 24 46S8 39.6 8 30.7C8 21.4 18.8 9 21.5 4.4 22 3.5 23 3 24 3Z" fill="url(#dropGrad)"/>
+            <path d="M24 14c-3.4 4.8-7 9.8-7 14.8a7 7 0 0 0 14 0C31 23.8 27.4 18.8 24 14Z" fill="#fff" opacity=".22"/>
+            <path d="M18 30.5c.6 2.7 3 4.8 5.8 5" stroke="#fff" stroke-width="2.4" stroke-linecap="round"/>
+          </svg>
+        </span>
+        <span class="brand-text">
+          <span class="brand-name">Waterseal</span>
+          <span class="brand-sub">Waterproofing · Canberra</span>
+        </span>
+      </a>
+
+      <nav class="main-nav" aria-label="Primary">
+        <a href="#services">Services</a>
+        <a href="#why">Why us</a>
+        <a href="#process">Process</a>
+        <a href="#areas">Service areas</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <a href="tel:0418629185" class="btn btn-primary header-cta">
+          <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.6.1.4 0 .8-.3 1l-2.2 2.2z"/></svg>
+          0418 629 185
+        </a>
+        <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileNav">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <div class="mobile-nav" id="mobileNav" hidden>
+      <a href="#services">Services</a>
+      <a href="#why">Why us</a>
+      <a href="#process">Process</a>
+      <a href="#areas">Service areas</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#contact">Contact</a>
+      <a href="tel:0418629185" class="btn btn-primary btn-block">Call 0418 629 185</a>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ===== HERO ===== -->
+    <section class="hero">
+      <div class="hero-bg">
+        <img src="assets/hero.jpg" alt="Tradesman applying a fresh coat of liquid waterproofing membrane on a Canberra rooftop terrace" class="hero-img" fetchpriority="high" />
+        <div class="hero-scrim" aria-hidden="true"></div>
+      </div>
+
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <span class="eyebrow"><span class="pulse"></span> Canberra &amp; Queanbeyan · Open 24 hours</span>
+          <h1>Watertight work that <span class="hl">actually lasts.</span></h1>
+          <p class="hero-lead">For over <strong>20 years</strong>, Waterseal has protected Canberra homes and businesses from leaks — using the latest membrane technology, applied right and built to Australian Standards.</p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary btn-lg">Get a free quote</a>
+            <a href="tel:0418629185" class="btn btn-glass btn-lg">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.6.1.4 0 .8-.3 1l-2.2 2.2z"/></svg>
+              0418 629 185
+            </a>
+          </div>
+          <ul class="hero-trust">
+            <li><strong>20+</strong><span>years in Canberra</span></li>
+            <li><strong>24/7</strong><span>emergency call-outs</span></li>
+            <li><strong>AS&nbsp;3740</strong><span>Australian Standards</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="hero-wave" aria-hidden="true">
+        <svg viewBox="0 0 1440 110" preserveAspectRatio="none"><path d="M0,64 C240,110 480,110 720,80 C960,50 1200,10 1440,40 L1440,110 L0,110 Z" fill="var(--paper)"/></svg>
+      </div>
+    </section>
+
+    <!-- ===== TRUST STRIP ===== -->
+    <div class="trust-strip">
+      <div class="container trust-inner">
+        <span><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 4 5v6c0 5 3.4 8.5 8 11 4.6-2.5 8-6 8-11V5z"/><path d="m9 12 2 2 4-4"/></svg> Fully insured</span>
+        <span><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Free written quotes</span>
+        <span><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v4M12 18v4M4.9 4.9l2.8 2.8M16.3 16.3l2.8 2.8M2 12h4M18 12h4M4.9 19.1l2.8-2.8M16.3 7.7l2.8-2.8"/></svg> Latest membrane technology</span>
+        <span><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 4 5v6c0 5 3.4 8.5 8 11 4.6-2.5 8-6 8-11V5z"/></svg> Workmanship guarantee</span>
+        <span><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg> Open 24 hours</span>
+        <!-- duplicate set for seamless marquee -->
+        <span aria-hidden="true"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 4 5v6c0 5 3.4 8.5 8 11 4.6-2.5 8-6 8-11V5z"/><path d="m9 12 2 2 4-4"/></svg> Fully insured</span>
+        <span aria-hidden="true"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Free written quotes</span>
+        <span aria-hidden="true"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v4M12 18v4M4.9 4.9l2.8 2.8M16.3 16.3l2.8 2.8M2 12h4M18 12h4M4.9 19.1l2.8-2.8M16.3 7.7l2.8-2.8"/></svg> Latest membrane technology</span>
+        <span aria-hidden="true"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 4 5v6c0 5 3.4 8.5 8 11 4.6-2.5 8-6 8-11V5z"/></svg> Workmanship guarantee</span>
+        <span aria-hidden="true"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg> Open 24 hours</span>
+      </div>
+    </div>
+
+    <!-- ===== SERVICES ===== -->
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="kicker">What we do</span>
+          <h2>Waterproofing for every part of your property</h2>
+          <p class="section-sub">From a single leaking shower to a full commercial rooftop, we seal it properly the first time — internal and external, residential and commercial.</p>
+        </div>
+
+        <div class="service-grid">
+          <article class="service-card reveal">
+            <span class="svc-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h16v3a5 5 0 0 1-5 5H9a5 5 0 0 1-5-5z"/><path d="M7 12V6a2 2 0 0 1 2-2h1"/><path d="M10 4v3"/><path d="M14 16v1M11 16v1M17 16v1"/></svg>
+            </span>
+            <h3>Bathrooms &amp; wet areas</h3>
+            <p>Showers, ensuites, laundries and toilets sealed to AS 3740 before tiling — no more hidden leaks behind the wall.</p>
+          </article>
+
+          <article class="service-card reveal">
+            <span class="svc-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 20h18"/><path d="M5 20V9l7-5 7 5v11"/><path d="M5 13h14"/><path d="M9 20v-4M13 20v-4M17 20v-4"/></svg>
+            </span>
+            <h3>Balconies &amp; decks</h3>
+            <p>Exposed and tiled balconies, podiums and rooftop terraces — trafficable membranes that handle weather and foot traffic.</p>
+          </article>
+
+          <article class="service-card reveal">
+            <span class="svc-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="m3 11 9-7 9 7"/><path d="M5 10v10h14V10"/><path d="M9 20v-6h6v6"/></svg>
+            </span>
+            <h3>Roofs &amp; rooftop membranes</h3>
+            <p>Flat and low-pitch roofs, box gutters and parapets coated with durable, UV-stable liquid membrane systems.</p>
+          </article>
+
+          <article class="service-card reveal">
+            <span class="svc-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7h18v13H3z"/><path d="M3 11h18M3 15h18M9 7v13M15 7v13"/><path d="M3 7 12 3l9 4"/></svg>
+            </span>
+            <h3>Basements &amp; retaining walls</h3>
+            <p>Below-ground tanking and negative-side waterproofing to keep moisture out of basements, garages and cellars.</p>
+          </article>
+
+          <article class="service-card reveal">
+            <span class="svc-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M5 21V8l7-4 7 4v13"/><path d="M5 13h14"/><path d="M12 4v17"/><path d="M9 17h.01M15 17h.01"/></svg>
+            </span>
+            <h3>Planter boxes &amp; podiums</h3>
+            <p>Garden beds, planter boxes and suspended slabs lined to stop water tracking into the structure below.</p>
+          </article>
+
+          <article class="service-card reveal">
+            <span class="svc-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3c3 4 5 6.5 5 9a5 5 0 0 1-10 0c0-2.5 2-5 5-9Z"/><path d="m14.5 13.5 4 4M16 12l5 5"/></svg>
+            </span>
+            <h3>Remedial &amp; leak repairs</h3>
+            <p>Tracing the real source of a leak and fixing it — re-sealing showers, balconies and failed membranes without the guesswork.</p>
+          </article>
+        </div>
+
+        <div class="services-foot reveal">
+          <p>Commercial, strata &amp; new builds welcome — <strong>builders and tilers, ask about our trade schedule.</strong></p>
+          <a href="#contact" class="btn btn-primary">Book a free inspection</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== WHY US ===== -->
+    <section class="section section-tint" id="why">
+      <div class="container why-grid">
+        <div class="why-copy reveal">
+          <span class="kicker">Why Waterseal</span>
+          <h2>Two decades of keeping Canberra dry</h2>
+          <p>Waterseal Waterproofing has been operating for over 20 years across Canberra and the surrounding region. Using the latest membrane technology and modern workplace practices, we deliver products and services that are cost-effective and built to meet Australian Standards.</p>
+          <p>Water damage only gets more expensive the longer it's left. We'd rather do the job once, properly — so you're not paying to fix it twice.</p>
+
+          <ul class="why-list">
+            <li>
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+              <div><strong>Specialists, not generalists.</strong> Waterproofing is all we do — every day, all year round.</div>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+              <div><strong>Compliance done right.</strong> Systems applied to Australian Standards, with the paperwork to prove it.</div>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+              <div><strong>Honest, fixed quotes.</strong> A clear written price up front — no surprises once the job starts.</div>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+              <div><strong>Backed by a guarantee.</strong> Workmanship you can rely on, standing behind every membrane we lay.</div>
+            </li>
+          </ul>
+        </div>
+
+        <aside class="why-stats reveal">
+          <div class="stat-card">
+            <span class="stat-num" data-count="20" data-suffix="+">0</span>
+            <span class="stat-label">Years protecting Canberra</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num" data-count="100" data-suffix="%">0</span>
+            <span class="stat-label">To Australian Standards</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num" data-count="24" data-suffix="/7">0</span>
+            <span class="stat-label">Emergency availability</span>
+          </div>
+          <div class="stat-card stat-quote">
+            <svg viewBox="0 0 24 24" width="26" height="26" fill="currentColor" aria-hidden="true"><path d="M7 7h5v6c0 2.8-1.9 4.6-4.7 5L7 21v-2c1.5-.4 2.4-1.2 2.6-2.5H7zM14 7h5v6c0 2.8-1.9 4.6-4.7 5L14 21v-2c1.5-.4 2.4-1.2 2.6-2.5H14z"/></svg>
+            <p>"Do it once, do it right." It's how we've worked since day one.</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ===== PROCESS ===== -->
+    <section class="section" id="process">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="kicker">How it works</span>
+          <h2>A straightforward four-step process</h2>
+          <p class="section-sub">No mess, no jargon — just a clear path from first call to a job you can rely on.</p>
+        </div>
+
+        <ol class="process-grid">
+          <li class="process-step reveal">
+            <span class="step-num">1</span>
+            <h3>Free inspection &amp; quote</h3>
+            <p>We come out, assess the area and the cause, then send a clear written quote — no obligation.</p>
+          </li>
+          <li class="process-step reveal">
+            <span class="step-num">2</span>
+            <h3>Surface preparation</h3>
+            <p>The part most people skip. We prep, prime and detail every junction so the membrane bonds properly.</p>
+          </li>
+          <li class="process-step reveal">
+            <span class="step-num">3</span>
+            <h3>Membrane application</h3>
+            <p>The right modern membrane system for the job, applied to the correct thickness and cured properly.</p>
+          </li>
+          <li class="process-step reveal">
+            <span class="step-num">4</span>
+            <h3>Flood test &amp; sign-off</h3>
+            <p>We water-test the work, hand over your documentation, and stand behind it with our guarantee.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===== CTA BAND ===== -->
+    <section class="cta-band">
+      <div class="container cta-inner reveal">
+        <div>
+          <h2>Got a leak — or building something new?</h2>
+          <p>Catch it early and you'll save a fortune down the track. Talk to a Canberra waterproofing specialist today.</p>
+        </div>
+        <div class="cta-actions">
+          <a href="tel:0418629185" class="btn btn-light btn-lg">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.6.1.4 0 .8-.3 1l-2.2 2.2z"/></svg>
+            Call 0418 629 185
+          </a>
+          <a href="#contact" class="btn btn-outline-light btn-lg">Request a quote</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SERVICE AREAS ===== -->
+    <section class="section section-tint" id="areas">
+      <div class="container areas-grid">
+        <div class="areas-copy reveal">
+          <span class="kicker">Where we work</span>
+          <h2>Canberra, Queanbeyan &amp; surrounding districts</h2>
+          <p>Based in Queanbeyan and working right across the ACT and nearby NSW. If you're in the region and water's getting somewhere it shouldn't, give us a call.</p>
+          <ul class="area-list">
+            <li>Queanbeyan</li>
+            <li>Canberra Central</li>
+            <li>Belconnen</li>
+            <li>Gungahlin</li>
+            <li>Woden Valley</li>
+            <li>Tuggeranong</li>
+            <li>Weston Creek</li>
+            <li>Molonglo</li>
+            <li>Jerrabomberra</li>
+            <li>Googong</li>
+            <li>Bungendore</li>
+            <li>&amp; nearby</li>
+          </ul>
+        </div>
+        <aside class="areas-card reveal">
+          <div class="map-frame" aria-hidden="true">
+            <span class="map-pin"><svg viewBox="0 0 24 24" width="30" height="30" fill="currentColor"><path d="M12 2a7 7 0 0 0-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6a2.5 2.5 0 0 1 0 5.5z"/></svg></span>
+            <span class="map-label">Queanbeyan · ACT region</span>
+          </div>
+          <div class="areas-hours">
+            <div>
+              <strong>Open 24 hours</strong>
+              <span>Including emergency leak call-outs</span>
+            </div>
+            <a href="tel:0418629185" class="btn btn-primary btn-block">Call now</a>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ===== REVIEWS =====
+         NOTE: placeholder testimonials — replace with the client's real
+         Google reviews before go-live (see NOTES.md). -->
+    <section class="section" id="reviews">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="kicker">Reviews</span>
+          <h2>Trusted by Canberra homeowners &amp; builders</h2>
+          <p class="section-sub">A reputation built over 20 years and thousands of dry bathrooms, balconies and rooftops.</p>
+        </div>
+
+        <div class="review-grid">
+          <figure class="review-card reveal">
+            <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <blockquote>"Had a balcony that leaked into the room below for years. Waterseal found the actual cause, re-membraned it and it's been bone dry through every storm since. Wish we'd called them first."</blockquote>
+            <figcaption><span class="rev-avatar" aria-hidden="true">SM</span><span><strong>Sarah M.</strong><small>Kambah, ACT</small></span></figcaption>
+          </figure>
+          <figure class="review-card reveal">
+            <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <blockquote>"We use Waterseal on all our bathroom renovations. Always on time, always to standard, and the certificates are ready when the tiler arrives. Easy to deal with."</blockquote>
+            <figcaption><span class="rev-avatar" aria-hidden="true">DT</span><span><strong>Daniel T.</strong><small>Builder · Gungahlin</small></span></figcaption>
+          </figure>
+          <figure class="review-card reveal">
+            <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <blockquote>"Professional from the quote to the clean-up. Explained exactly what was wrong and what they'd do about it. Fair price and no surprises. Highly recommend."</blockquote>
+            <figcaption><span class="rev-avatar" aria-hidden="true">PR</span><span><strong>Priya R.</strong><small>Queanbeyan, NSW</small></span></figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="section section-dark" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-copy reveal">
+          <span class="kicker kicker-light">Get in touch</span>
+          <h2>Request your free quote</h2>
+          <p>Tell us what's going on and we'll get back to you. For urgent leaks, call any time — we're open 24 hours.</p>
+
+          <ul class="contact-list">
+            <li>
+              <span class="ci"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.6.1.4 0 .8-.3 1l-2.2 2.2z"/></svg></span>
+              <div><small>Call us</small><a href="tel:0418629185">0418 629 185</a></div>
+            </li>
+            <li>
+              <span class="ci"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a7 7 0 0 0-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 0 0-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg></span>
+              <div><small>Find us</small><span>John Bull St, Queanbeyan NSW 2620</span></div>
+            </li>
+            <li>
+              <span class="ci"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span>
+              <div><small>Hours</small><span>Open 24 hours · 7 days</span></div>
+            </li>
+          </ul>
+        </div>
+
+        <form class="contact-form reveal" id="quoteForm" novalidate>
+          <div class="field">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" autocomplete="name" required placeholder="Your name" />
+          </div>
+          <div class="field-row">
+            <div class="field">
+              <label for="phone">Phone</label>
+              <input type="tel" id="phone" name="phone" autocomplete="tel" required placeholder="04xx xxx xxx" />
+            </div>
+            <div class="field">
+              <label for="suburb">Suburb</label>
+              <input type="text" id="suburb" name="suburb" placeholder="e.g. Belconnen" />
+            </div>
+          </div>
+          <div class="field">
+            <label for="service">What do you need?</label>
+            <select id="service" name="service">
+              <option value="">Select a service…</option>
+              <option>Bathroom / wet area</option>
+              <option>Balcony / deck</option>
+              <option>Roof / rooftop membrane</option>
+              <option>Basement / retaining wall</option>
+              <option>Planter box / podium</option>
+              <option>Leak repair / remedial</option>
+              <option>Commercial / strata</option>
+              <option>Something else</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="message">Details</label>
+            <textarea id="message" name="message" rows="4" placeholder="Tell us a bit about the job…"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-lg btn-block">Send my request</button>
+          <p class="form-note" id="formNote" role="status">We'll get back to you fast. Prefer to talk? <a href="tel:0418629185">Call 0418 629 185</a>.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <span class="brand-mark sm" aria-hidden="true">
+          <svg viewBox="0 0 48 48" width="34" height="34" fill="none">
+            <path d="M24 3c1 0 2 .5 2.5 1.4 2.7 4.6 13.5 17 13.5 26.3C40 39.6 32.8 46 24 46S8 39.6 8 30.7C8 21.4 18.8 9 21.5 4.4 22 3.5 23 3 24 3Z" fill="url(#dropGrad)"/>
+            <path d="M18 30.5c.6 2.7 3 4.8 5.8 5" stroke="#fff" stroke-width="2.4" stroke-linecap="round"/>
+          </svg>
+        </span>
+        <p class="footer-name">Waterseal Waterproofing</p>
+        <p class="footer-tag">Canberra's membrane specialists for over 20 years. Watertight work that lasts.</p>
+        <a href="tel:0418629185" class="footer-phone">0418 629 185</a>
+      </div>
+
+      <div class="footer-col">
+        <h4>Services</h4>
+        <a href="#services">Bathrooms &amp; wet areas</a>
+        <a href="#services">Balconies &amp; decks</a>
+        <a href="#services">Roofs &amp; membranes</a>
+        <a href="#services">Leak repairs</a>
+      </div>
+
+      <div class="footer-col">
+        <h4>Company</h4>
+        <a href="#why">Why Waterseal</a>
+        <a href="#process">Our process</a>
+        <a href="#areas">Service areas</a>
+        <a href="#reviews">Reviews</a>
+      </div>
+
+      <div class="footer-col">
+        <h4>Get in touch</h4>
+        <a href="tel:0418629185">0418 629 185</a>
+        <span class="footer-line">John Bull St,<br/>Queanbeyan NSW 2620</span>
+        <span class="footer-line">Open 24 hours · 7 days</span>
+      </div>
+    </div>
+
+    <div class="container footer-bar">
+      <span>© <span id="year">2026</span> Waterseal Waterproofing Canberra. All rights reserved.</span>
+      <span class="footer-credit">Website by <strong>Alex Cole</strong></span>
+    </div>
+  </footer>
+
+  <!-- Floating call button (mobile) -->
+  <a href="tel:0418629185" class="fab-call" aria-label="Call Waterseal Waterproofing">
+    <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.6.1.4 0 .8-.3 1l-2.2 2.2z"/></svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
